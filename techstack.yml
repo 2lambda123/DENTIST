@@ -1,0 +1,63 @@
+repo_name: 2lambda123/DENTIST
+report_id: 17202ad120f0288ae6369a23c0833d10
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:56:11+00:00'
+requested_by: snorkell-ai[bot]
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/DENTIST
+  detection_source: Repo Metadata
+- name: Fortran
+  description: High-performance parallel programming language
+  website_url: https://fortran-lang.org/en/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/11029/default_075c8240ce6c7ac3a8db41abef5c68eb84207f99.png
+  detection_source_url: https://github.com/2lambda123/DENTIST
+  detection_source: Repo Metadata
+- name: MATLAB
+  description: A high-level language and interactive environment for numerical computation,
+    visualization, and programming
+  website_url: http://www.mathworks.com/products/matlab/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1214/h5g3etjnacmazg8oq17z.jpeg
+  detection_source_url: https://github.com/2lambda123/DENTIST
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/DENTIST
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/DENTIST/blob/master/.github/workflows/snorkell-auto-documentation.yml
+  detection_source: ".github/workflows/snorkell-auto-documentation.yml"
+  last_updated_by: snorkell-ai[bot]
+  last_updated_on: 2023-12-20 11:11:09.000000000 Z
